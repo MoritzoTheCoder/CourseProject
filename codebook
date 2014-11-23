@@ -1,3 +1,5 @@
+Note: Since I'm not familiar with the underlying science of the experimental data I have only included a description for those variables for which I think I understood its meaning. Of course, all variables represent the averrage of the underlying measurements for the subjects crossed with the activities.
+
 The final dataset contains 81 variables. Beside identifiers for subjects and experimental conditions (performed activities) they averrage signals from the gyroscope and the acceleration sensors of the experimental equipment.
 
 VARIABLE NAME				DATA TYPE
