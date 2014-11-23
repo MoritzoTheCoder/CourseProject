@@ -75,7 +75,8 @@ DF.summary <- DF.subset_DT[, lapply(.SD, mean), by = c("subjectID","activity")]
 #########################################
 ###EXPORT & INSTURCTIONS FOR RE-IMPORT###
 #########################################
-write.table(DF.summary, file = "tidy_dataset.txt", sep=";", row.names = FALSE)
+write.table(DF.summary, file = "tidy_dataset.txt", sep=";", row.names = FALSE) #No need to execute since my tidy dataset is provided via Coursera
 #Download my tidy_dataset file to your working directory (you might copy-paste it to your working directory if the file is downloaded automatically into the default download folder)
 #Code for re-importing the text file as dataset into R:
-tidy_dataset <- read.table("tidy_dataset.txt", header=TRUE, sep=";")
+tidy_dataset <- read.table("12407de0732811e4bd28e118f5761593.txt", header=TRUE, sep=";")
+(The cryptic file names results from Coursera/Amazon automatically renames the uploaded file)
