@@ -1,0 +1,84 @@
+The final dataset contains 81 variables. Beside identifiers for subjects and experimental conditions (performed activities) they averrage signals from the gyroscope and the acceleration sensors of the experimental equipment.
+
+VARIABLE NAME				DATA TYPE
+ $ subjectID                             : int  	unique number to identify each participant in this study
+ $ activity                              : Factor 	Activities participants performed while recording measurements
+ $ tBodyAcc_mean_X                       : num  	Average of acceleration measurements for x-coordinate
+ $ tBodyAcc_mean_Y                       : num  	Average of acceleration measurements for y-coordinate
+ $ tBodyAcc_mean_Z                       : num  	Average of acceleration measurements for z-coordinate
+ $ tBodyAcc_StandardDeviation_X          : num  	Average of standard deviation of acceleration measurements for x-coordinate
+ $ tBodyAcc_StandardDeviation_Y          : num  	Average of standard deviation of acceleration measurements for y-coordinate
+ $ tBodyAcc_StandardDeviation_Z          : num  	Average of standard deviation of acceleration measurements for z-coordinate
+ $ tGravityAcc_mean_X                    : num  	Average of gravitation measurements for x-coordinate
+ $ tGravityAcc_mean_Y                    : num  	Average of gravitation measurements for y-coordinate
+ $ tGravityAcc_mean_Z                    : num  	Average of gravitation measurements for z-coordinate
+ $ tGravityAcc_StandardDeviation_X       : num  	Average of standard deviation of gravitation measurements for x-coordinate
+ $ tGravityAcc_StandardDeviation_Y       : num  	Average of standard deviation of gravitation measurements for y-coordinate
+ $ tGravityAcc_StandardDeviation_Z       : num  	Average of standard deviation of gravitation measurements for z-coordinate
+ $ tBodyAccJerk_mean_X                   : num  	[…]
+ $ tBodyAccJerk_mean_Y                   : num  	[…]
+ $ tBodyAccJerk_mean_Z                   : num  	[…]
+ $ tBodyAccJerk_StandardDeviation_X      : num  	[…]
+ $ tBodyAccJerk_StandardDeviation_Y      : num  	[…]
+ $ tBodyAccJerk_StandardDeviation_Z      : num  	[…]
+ $ tBodyGyro_mean_X                      : num  	[…]
+ $ tBodyGyro_mean_Y                      : num  	[…]
+ $ tBodyGyro_mean_Z                      : num  	[…]
+ $ tBodyGyro_StandardDeviation_X         : num  	[…]
+ $ tBodyGyro_StandardDeviation_Y         : num  	[…]
+ $ tBodyGyro_StandardDeviation_Z         : num  	[…]
+ $ tBodyGyroJerk_mean_X                  : num  	[…]
+ $ tBodyGyroJerk_mean_Y                  : num  	[…]
+ $ tBodyGyroJerk_mean_Z                  : num  	[…]
+ $ tBodyGyroJerk_StandardDeviation_X     : num  	[…]
+ $ tBodyGyroJerk_StandardDeviation_Y     : num  	[…]
+ $ tBodyGyroJerk_StandardDeviation_Z     : num  	[…]
+ $ tBodyAccMag_mean                      : num  	[…]
+ $ tBodyAccMag_StandardDeviation         : num  	[…]
+ $ tGravityAccMag_mean                   : num  	[…]
+ $ tGravityAccMag_StandardDeviation      : num  	[…]
+ $ tBodyAccJerkMag_mean                  : num  	[…]
+ $ tBodyAccJerkMag_StandardDeviation     : num  	[…]
+ $ tBodyGyroMag_mean                     : num  	[…]
+ $ tBodyGyroMag_StandardDeviation        : num  	[…]
+ $ tBodyGyroJerkMag_mean                 : num  	[…]
+ $ tBodyGyroJerkMag_StandardDeviation    : num  	[…]
+ $ fBodyAcc_mean_X                       : num  	Average of fourier-transformed acceleration measurements for x-coordinate
+ $ fBodyAcc_mean_Y                       : num  	Average of fourier-transformed acceleration measurements for y-coordinate
+ $ fBodyAcc_mean_Z                       : num  	Average of fourier-transformed acceleration measurements for z-coordinate
+ $ fBodyAcc_StandardDeviation_X          : num  	Average of standard deviation of fourier-transformed acceleration measurements for x-coordinate
+ $ fBodyAcc_StandardDeviation_Y          : num  	Average of standard deviation of fourier-transformed acceleration measurements for y-coordinate
+ $ fBodyAcc_StandardDeviation_Z          : num  	Average of standard deviation of fourier-transformed acceleration measurements for z-coordinate
+ $ fBodyAcc_meanFreq_X                   : num  	[…]
+ $ fBodyAcc_meanFreq_Y                   : num  	[…]
+ $ fBodyAcc_meanFreq_Z                   : num  	[…]
+ $ fBodyAccJerk_mean_X                   : num  	[…]
+ $ fBodyAccJerk_mean_Y                   : num  	[…]
+ $ fBodyAccJerk_mean_Z                   : num  	[…]
+ $ fBodyAccJerk_StandardDeviation_X      : num  	[…]
+ $ fBodyAccJerk_StandardDeviation_Y      : num  	[…]
+ $ fBodyAccJerk_StandardDeviation_Z      : num  	[…]
+ $ fBodyAccJerk_meanFreq_X               : num  	[…]
+ $ fBodyAccJerk_meanFreq_Y               : num  	[…]
+ $ fBodyAccJerk_meanFreq_Z               : num  	[…]
+ $ fBodyGyro_mean_X                      : num  	Average of fourier-transformed gyroscope measurements for x-coordinate
+ $ fBodyGyro_mean_Y                      : num  	Average of fourier-transformed gyroscope measurements for y-coordinate
+ $ fBodyGyro_mean_Z                      : num  	Average of fourier-transformed gyroscope measurements for z-coordinate
+ $ fBodyGyro_StandardDeviation_X         : num  	[…]
+ $ fBodyGyro_StandardDeviation_Y         : num  	[…]
+ $ fBodyGyro_StandardDeviation_Z         : num  	[…]
+ $ fBodyGyro_meanFreq_X                  : num  	[…]
+ $ fBodyGyro_meanFreq_Y                  : num  	[…]
+ $ fBodyGyro_meanFreq_Z                  : num  	[…]
+ $ fBodyAccMag_mean                      : num  	[…]
+ $ fBodyAccMag_StandardDeviation         : num  	[…]
+ $ fBodyAccMag_meanFreq                  : num  	[…]
+ $ fBodyBodyAccJerkMag_mean              : num  	[…]
+ $ fBodyBodyAccJerkMag_StandardDeviation : num  	[…]
+ $ fBodyBodyAccJerkMag_meanFreq          : num  	[…]
+ $ fBodyBodyGyroMag_mean                 : num  	[…]
+ $ fBodyBodyGyroMag_StandardDeviation    : num  	[…]
+ $ fBodyBodyGyroMag_meanFreq             : num  	[…]
+ $ fBodyBodyGyroJerkMag_mean             : num  	[…]
+ $ fBodyBodyGyroJerkMag_StandardDeviation: num  	[…]
+ $ fBodyBodyGyroJerkMag_meanFreq         : num  	[…]
